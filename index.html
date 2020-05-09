@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <title>Seaching Pattern</title>
+</head>
+<body>
+    <form style="width:500px; margin: auto; margin-top: 70px;">
+        <label for="pattern"> Enter your substring pattern</label>
+        <input id="substring" type="text"> <br><br>
+        <label for="pattern"> Enter your full string pattern</label>
+        <input id="string" type="text"> <br><br>
+        <input id="getResult" type="submit">
+    </form>
+
+    <div id="result" style="width:500px; margin: auto; margin-top: 70px;"></div>
+    <div id="resultString" style="width:500px; margin: auto; margin-top: 70px;"></div>
+    <script src="kmp.js"></script>
+    
+</body>
+</html>
